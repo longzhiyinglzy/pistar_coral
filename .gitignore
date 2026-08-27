@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local training artifacts and generated outputs.
+checkpoints/
+coral_weights/
+outputs/
+logs/
+
+# Deployment expert links point to machine-local weight directories.
+deployments/*/experts/

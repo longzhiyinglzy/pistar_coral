@@ -1,0 +1,20 @@
+{
+  "base_checkpoint_dir": "/home/user/pi0.5/pi05_base/params",
+  "base_config": "pi05_star_coral_piper_infer",
+  "default_expert": "assemble_block1_recap1",
+  "expert_names": [
+    "assemble_block1_recap1",
+    "assemble_block2",
+    "assemble_block3"
+  ],
+  "experts_dir": "/home/user/code/pistar-coral/deployments/three_blocks_recap1/experts",
+  "model_type": "pi05",
+  "param_modules": [
+    "lora",
+    "action_head",
+    "image_tower",
+    "action_expert"
+  ],
+  "root": null,
+  "switch_mode": "hot"
+}

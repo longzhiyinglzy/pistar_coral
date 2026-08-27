@@ -1,0 +1,25 @@
+{
+  "default_expert": null,
+  "experts": [
+    {
+      "name": "assemble_block1",
+      "host": "127.0.0.1",
+      "port": 8001,
+      "prompts": [
+        "Pick up the block1 and assemble it.",
+        "Pick up block 1 and assemble it."
+      ],
+      "keywords": ["block1", "block 1", "物块1", "一号物块"]
+    },
+    {
+      "name": "assemble_block2",
+      "host": "127.0.0.1",
+      "port": 8002,
+      "prompts": [
+        "Pick up the block2 and assemble it.",
+        "Pick up block 2 and assemble it."
+      ],
+      "keywords": ["block2", "block 2", "物块2", "二号物块"]
+    }
+  ]
+}
